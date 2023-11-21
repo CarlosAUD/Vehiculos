@@ -1,7 +1,15 @@
-public class carros {
-    public static void Carros(String [] args){
-        System.out.println("Bienvenido");
-        getset carro1=new getset("")
-    }//Finish the metod of Carros
 
-}//Finish the class carros
+public class Main {
+    public static void main(String[] args) {
+        // Press Opt+Enter with your caret at the highlighted text to see how
+        // IntelliJ IDEA suggests fixing it.
+        System.out.println("Bienvenido");
+
+        Autos auto1=new Autos("Jeep","Kia","rojo",2021);
+        Autos auto2=new Autos("Automovil","Chevrolet","Blanco",2019);
+        auto1.imprimirDatos();
+        auto2.imprimirDatos();
+
+
+    }
+}
