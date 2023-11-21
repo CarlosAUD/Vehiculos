@@ -2,7 +2,7 @@ public class getset{
     //Atributos
     public String marca;
     public String modelo;
-    public String year;
+    public int year;
     public int cilindraje;
 
     public getset(String marca, String modelo, String year, int cilindraje) {
@@ -47,6 +47,7 @@ public class getset{
         int tempyear=getYear();
         String tempmarca=getMarca();
         String tempmodelo=getModelo();
+        int tempcilindraje=getCilindraje();
         System.out.println(getYear()+getModelo()+getMarca());
     }
 }
