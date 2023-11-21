@@ -2,38 +2,51 @@ public class getset{
     //Atributos
     public String marca;
     public String modelo;
-    public String color;
+    public String year;
     public int cilindraje;
 
-    getset(String nuevoMarca){
-        marca=nuevoMarca;
-    }
-    //metodos
-    //Geters
-    public int getCilindraje(){
-        return cilindraje;
-    }
-    public String getMarca(){
-        return marca;
-    }
-    public String getModelo(){
-        return modelo;
-    }
-    public String getColor(){
-        return color;
-    }
-    //Setters
-    public void setModelo(String newModelo){
-        this.modelo=newModelo;
-    }
-    public void setMarca(String newMarca){
-        this.marca=newMarca;
-    }
-    public void setColor(String newColor){
-        this.color=newColor;
-    }
-    public void setCilindraje(int newCilindraje){
-        this.cilindraje=newCilindraje;
+    public getset(String marca, String modelo, String year, int cilindraje) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.year = year;
+        this.cilindraje = cilindraje;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public int getCilindraje() {
+        return cilindraje;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public void setCilindraje(int cilindraje) {
+        this.cilindraje = cilindraje;
+    }
+    public void ImprimirDatos(){
+        int tempyear=getYear();
+        String tempmarca=getMarca();
+        String tempmodelo=getModelo();
+        System.out.println(getYear()+getModelo()+getMarca());
+    }
 }
