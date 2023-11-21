@@ -9,7 +9,7 @@ public class Main {
         Autos auto2=new Autos("Automovil","Chevrolet","Blanco",2019);
         auto1.imprimirDatos();
         auto2.imprimirDatos();
-
+        System.out.println(auto1.getYear()+auto2.getYear());
 
     }
 }
