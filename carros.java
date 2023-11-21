@@ -17,10 +17,10 @@ public class carros {
         miCarro3.setCilindraje(1000);
         miCarro4.setCilindraje(2500);
         //Seteos de color
-        miCarro1.setColor("cafe");
-        miCarro2.setColor("blanco");
-        miCarro3.setColor("negro");
-        miCarro4.setColor("plomo");
+        miCarro1.setYear("2022");
+        miCarro2.setYear("2018");
+        miCarro3.setYear("2006");
+        miCarro4.setYear("1998");
         //Seteos de raza
         miCarro1.setModelo("fortuner");
         miCarro2.setModelo("tida");
