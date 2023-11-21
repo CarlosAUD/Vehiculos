@@ -7,9 +7,19 @@ public class Main {
 
         Autos auto1=new Autos("Jeep","Kia","rojo",2021);
         Autos auto2=new Autos("Automovil","Chevrolet","Blanco",2019);
+        System.out.println("Valores originales");
         auto1.imprimirDatos();
         auto2.imprimirDatos();
-        System.out.println(auto1.getYear()+auto2.getYear());
+        System.out.println("Suma de los años: ");
+        System.out.println(auto1.getAnio()+ auto2.getAnio());
 
+        auto1.setAnio(2000);
+        auto1.setAnio(2005);
+        auto1.setMarca("Nissan");
+        auto2.setMarca("Nissan");
+
+        System.out.println("Valores nuevo");
+        auto1.imprimirDatos();
+        auto2.imprimirDatos();
     }
 }
