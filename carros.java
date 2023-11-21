@@ -9,7 +9,14 @@ public class Main {
         Autos auto2=new Autos("Automovil","Chevrolet","Blanco",2019);
         auto1.imprimirDatos();
         auto2.imprimirDatos();
-
-
+        System.out.println("suma de los años: ");
+        System.out.println(auto1.getAnio()+auto2.getAnio());
+        auto1.setAnio(2000);
+        auto2.setAnio(2005);
+        auto1.setAnio("Nissan");
+        auto2.setAnio("Reanult");
+        System.out.println("Valores nuevos");
+        auto1.imprimirDatos();
+        auto2.imprimir
     }
 }
