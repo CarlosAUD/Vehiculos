@@ -10,6 +10,12 @@ public class getset{
         this.modelo = modelo;
         this.year = year;
         this.cilindraje = cilindraje;
+
+
+
+
+
+        
     }
 
     public String getMarca() {
